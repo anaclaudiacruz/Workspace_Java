@@ -1,0 +1,13 @@
+import java.util.Scanner;
+
+public class HelloWorld {
+	public static void main(String[] args) {
+		Scanner teclado = new Scanner(System.in);
+		int valor;
+		System.out.println("Oi. tudo bem? Eclipse é massa!");
+		valor = teclado.nextInt();
+		System.out.println("Vc digitou: " + valor);
+		teclado.close();
+	}
+
+}

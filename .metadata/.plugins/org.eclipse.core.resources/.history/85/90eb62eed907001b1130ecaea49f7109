@@ -1,0 +1,23 @@
+package ui;
+
+import java.util.ArrayList;
+
+import core.Funcionario;
+import core.Chefe;
+import core.Comissionado;
+import core.Empreiteiro;
+import core.Horista;
+
+public class AplicacaoPrincipal {
+	
+ 	public static void main(String args[]) {
+
+ 		ArrayList<Funcionario> funcs;
+ 		funcs = new ArrayList<Funcionario>();
+ 		
+ 		funcs.add(new Chefe        ("Chefe",1,10000.10));
+ 		funcs.add(new Comissionado ("Comissionado",2,2000.10));
+ 		
+ 	}
+
+}

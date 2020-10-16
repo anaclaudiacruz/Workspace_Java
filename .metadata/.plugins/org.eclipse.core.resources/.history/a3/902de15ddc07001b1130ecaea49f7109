@@ -1,0 +1,32 @@
+package ui;
+
+import java.util.ArrayList;
+
+import core.Funcionario;
+import core.CartaoPrePago;
+import core.Chefe;
+import core.Comissionado;
+import core.Horista;
+import core.Empreiteiro;
+
+public class AplicacaoPrincipal {
+	
+ 	public static void main(String args[]) {
+
+ 		ArrayList<Funcionario> funcs;
+ 		funcs = new ArrayList<Funcionario>();
+ 		
+ 		funcs.add(new Chefe        (1,"Chefe",10000,10,1000));
+ 		funcs.add(new Comissionado (2,"Comissionado",2000,10));
+ 		funcs.add(new Horista      (3,"Horista",30,10));
+ 		funcs.add(new Empreiteiro  (4,"Empreiteiro",5000));
+
+ 		for (Funcionario f: funcs) { 
+ 			f.calcularSalario(); 
+ 			System.out.println(c); 
+ 		} 
+
+ 		
+ 	}
+
+}

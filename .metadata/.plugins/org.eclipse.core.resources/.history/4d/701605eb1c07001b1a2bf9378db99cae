@@ -1,0 +1,25 @@
+package userinterface;
+
+import model.CartaoPrePago;
+
+public class AplicacaoCartao {
+	public static void main(String [] args) {
+		
+	CartaoPrePago c = new CartaoPrePago("1234.5678.9012.3456","Isidro",2023,01); 
+
+	c.adicionarCredito(100);
+	
+	System.out.println(c.getNumeroCartao()+"/"+c.getNomeTitular()+"/"+c.getAnoValidade()+"/"+c.getMesValidade()+"  R$ "+c.getSaldo());
+
+	System.out.println("\n\n ---> Manipulando o cartao normal...");
+	if (c.comprar(150)) {
+		System.out.println("Compra efetuado com sucesso");
+	}
+	else {
+		System.out.println("Saldo insuficiente");
+	}
+	System.out.println(c.getNumeroCartao()+"/"+c.getNomeTitular()+"/"+c.getAnoValidade()+"/"+c.getMesValidade()+"  R$ "+c.getSaldo());
+
+	
+	}
+}

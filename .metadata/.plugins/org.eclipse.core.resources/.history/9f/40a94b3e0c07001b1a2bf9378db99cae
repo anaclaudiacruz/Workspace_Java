@@ -1,0 +1,11 @@
+package model;
+
+public class Pessoa {
+	Protect String nome;
+	Protect String email;
+	Protect String telefone;
+	
+	public void imprimirInfo() {
+		System.out.println("Pessoa " + nome + "/" + email + "/" + telefone);
+	}
+}

@@ -1,0 +1,11 @@
+package userinterface;
+
+import model.CartaoPrePago;
+
+public class AplicacaoCartao {
+	public static void main(String [] args) {
+		
+	CartaoPrePago c = new CartaoPrePago(); 
+		
+	}
+}

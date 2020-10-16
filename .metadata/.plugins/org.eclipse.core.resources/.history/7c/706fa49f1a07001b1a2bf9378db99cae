@@ -1,0 +1,14 @@
+package model;
+
+public class CartaoPrePago {
+
+	protected String numeroCartao;
+	protected String nomeTitular;
+	protected int    anoValidade;
+	protected int    mesValidade;
+	protected double saldo;
+		
+
+	
+	
+}

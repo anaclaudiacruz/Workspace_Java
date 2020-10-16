@@ -1,0 +1,31 @@
+
+public class PrincipalHorario {
+
+	public static void main(String[] args) {
+
+		Horario h1, h2, h3, h4;
+
+		String HU1, HU2, HU3, HU4;
+//		String HP1, HP2, HP3, HP4;
+
+		h1 = new Horario();
+		h2 = new Horario();
+		h3 = new Horario();
+		h4 = new Horario();
+
+		h1.setTime(00, 00, 00);
+		h2.setTime(01, 30, 07);
+		h3.setTime(13, 30, 07);
+		h4.setTime(24, 00, 00);
+
+		HU1 = h1.exibirHoraUniversal();
+		HU2 = h2.exibirHoraUniversal();
+		HU3 = h3.exibirHoraUniversal();
+		HU4 = h4.exibirHoraUniversal();
+
+		System.out.println("Hora Universal 1 " + HU1);
+		System.out.println("Hora Universal 2 " + HU2);
+		System.out.println("Hora Universal 3 " + HU3);
+		System.out.println("Hora Universal 4 " + HU4);
+	}
+}

@@ -1,0 +1,17 @@
+package userinterface;
+
+import model.QuestaoSimples;
+import core.CartaoPrePago;
+import model.QuestaoComDica;
+import model.QuestaoME;
+
+public class AplicacaoPrincipal {
+	public static void main(String args[]) {
+
+		QuestaoSimples questoes[];
+		questoes = new QuestaoSimples[5];
+		
+		
+		
+	}
+}

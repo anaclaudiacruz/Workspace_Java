@@ -1,0 +1,12 @@
+
+public class Biblioteca {
+
+private String titulo;
+private String autor;
+private int ano_publicacao;
+private String categoria;
+private int num_estante; 
+private int num_prateleira;
+private boolean emprestado;
+	
+}

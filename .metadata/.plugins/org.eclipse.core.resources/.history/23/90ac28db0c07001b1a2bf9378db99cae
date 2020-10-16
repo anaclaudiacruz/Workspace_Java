@@ -1,0 +1,26 @@
+package ui;
+
+import model.Estudante;
+import model.Pessoa;
+
+public class AplicacaoPrincipal {
+	public static void main(String [] args) {
+
+    Pessoa p = new Pessoa();
+    Estudante e = new Estudante();
+    
+    p.nome = "isidro";
+    p.email = "isidro@isidro.com";
+    p.telefone = "999999999";
+    
+    e.nome = "pedro";
+    e.email = "pedro@pedro.com";
+    e.telefone = "888888888";
+    e.curso = "Computação";
+    e.anoConclusao = 2020;
+    
+    p.imprimirInfo();
+    
+    
+	}
+}

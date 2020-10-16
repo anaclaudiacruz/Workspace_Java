@@ -1,0 +1,10 @@
+package model;
+
+public class Estudante extends Pessoa {
+	String curso;
+	int    anoConclusao;
+	
+	public void imprimirInfo() {
+		System.out.println("ESTUDANTE: "+nome+"/"+email+"/"+telefone+"/"+curso+"/"+anoConclusao);
+	}
+}

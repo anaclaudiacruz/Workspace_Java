@@ -1,0 +1,32 @@
+
+public class Folha {
+	public static void main(String[] args) {
+	
+	Empregado e1, e2;
+	
+	e1 = new Empregado();
+	e2 = new Empregado();
+	
+	e1.nome = "Isidro";
+	e1.cargo = "Professor";
+	e1.salario = 10000.0;
+	
+	e2.nome = "Jose";
+	e2.cargo = "Diretor";
+	e2.salario = 50000.0;
+	
+	e1.imprimir();
+	e2.imprimir();
+	
+	e1.aumentarSalario(10.0);
+	e2.aumentarSalario(5.0);
+
+	System.out.println("");
+	System.out.println("Novos Valores");
+	System.out.println("");
+	
+	e1.imprimir();
+	e2.imprimir();
+
+	}
+}

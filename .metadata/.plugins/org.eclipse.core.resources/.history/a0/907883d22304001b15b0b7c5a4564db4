@@ -1,0 +1,7 @@
+
+public class Bomba {
+	private String nome_combustivel;
+	private double valor_litro;
+	private int    qt_litros;
+	private double valor_total;
+}

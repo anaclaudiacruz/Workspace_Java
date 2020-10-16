@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+<fullyQualifiedTypeName name="model.Questao"/>
+<fullyQualifiedTypeName name="java.lang.System"/>
+<fullyQualifiedTypeName name="java.util.ArrayList"/>
+<fullyQualifiedTypeName name="core.QuestaoComDica"/>
+<fullyQualifiedTypeName name="core.Funcionario"/>
+<fullyQualifiedTypeName name="core.Chefe"/>
+<fullyQualifiedTypeName name="core.Comissionado"/>
+<fullyQualifiedTypeName name="core.Empreiteiro"/>
+<fullyQualifiedTypeName name="core.Horista"/>
+<fullyQualifiedTypeName name="model.Produto"/>
+<fullyQualifiedTypeName name="java.util.Scanner"/>
+<fullyQualifiedTypeName name="model.IsiException"/>
+</qualifiedTypeNameHistroy>

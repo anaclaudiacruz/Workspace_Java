@@ -1,0 +1,15 @@
+package model;
+
+public class AplicacaoPrincipal {
+	public static void main(String [] args) {
+
+    Pessoa p = new Pessoa();
+    Estudante e = new Pessoa();
+    
+    p.nome = "isidro";
+    p.email = "isidro@isidro.com";
+    p.telefone = "999999999";
+    
+    
+	}
+}

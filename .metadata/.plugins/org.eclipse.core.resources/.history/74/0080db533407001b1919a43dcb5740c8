@@ -1,0 +1,17 @@
+package model;
+
+public class QuestaoSimples {
+
+	protected String enunciado;
+	protected String resposta;
+	
+	public String aplicarQuestao() {
+		return "Questão: "+this.enunciado;
+	}
+	
+	public boolean corrigir(String resposta) {
+		return this.resposta.equals(resposta);
+	}
+
+
+}

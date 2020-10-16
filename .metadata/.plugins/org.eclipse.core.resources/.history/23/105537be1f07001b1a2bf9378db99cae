@@ -1,0 +1,38 @@
+package userinterface;
+
+import model.CartaoPrePago;
+import model.CartaoCashBack;
+
+public class AplicacaoCartao {
+	public static void main(String [] args) {
+		
+	CartaoPrePago  c = new  CartaoPrePago("1234.5678.9012.3456","Isidro",2023,01); 
+	CartaoCashBack cb = new CartaoCashBack("5678.9012.3456.7890","Nicolas",2023,01,3);
+	
+	c.adicionarCredito(100);
+	cb.adicionarCredito(100);	
+	
+	System.out.println("\n\n ---> Manipulando o cartao normal...");
+	System.out.println(c.getNumeroCartao()+"/"+c.getNomeTitular()+"/"+c.getAnoValidade()+"/"+c.getMesValidade()+"  R$ "+c.getSaldo());
+	if (c.comprar(50)) {
+		System.out.println("Compra efetuado com sucesso");
+	}
+	else {
+		System.out.println("Saldo insuficiente");
+	}
+	System.out.println(c.getNumeroCartao()+"/"+c.getNomeTitular()+"/"+c.getAnoValidade()+"/"+c.getMesValidade()+"  R$ "+c.getSaldo());
+
+
+	System.out.println("\n\n ---> Manipulando o cartao cash back...");
+	System.out.println(cb.getNumeroCartao()+"/"+cb.getNomeTitular()+"/"+cb.getAnoValidade()+"/"+cb.getMesValidade()+"  R$ "+cb.getSaldo());
+	if (cb.comprar(50)) {
+		System.out.println("Compra efetuado com sucesso");
+	}
+	else {
+		System.out.println("Saldo insuficiente");
+	}
+	System.out.println(cb.getNumeroCartao()+"/"+cb.getNomeTitular()+"/"+cb.getAnoValidade()+"/"+cb.getMesValidade()+"  R$ "+cb.getSaldo());
+
+
+	}
+}

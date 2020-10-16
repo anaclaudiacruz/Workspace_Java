@@ -1,0 +1,28 @@
+package model;
+
+public class CartaoCashBack extends CartaoPrePago {
+	private int tipo;
+	
+	public CartaoCashBack(String numeroCartao, String nomeTitular, int anoValidade, int mesValidade, int tipo) {
+		super(numeroCartao,nomeTitular,anoValidade,mesValidade);
+		this.tipo = tipo;		
+    }
+
+	public boolean comprar(double valor) {
+		if (this.saldo >= valor) {
+			this.saldo = this.saldo - valor;
+			
+			if (this.tipo == 1) {
+			   this.saldo = this.saldo + (valor * 0.02); 
+			} else if (this.tipo == 2) {
+			   this.saldo = this.saldo + (valor * 0.05);
+			} else if (this.tipo == 3) {
+			   this.saldo = this.saldo + (valor * 0.08);
+			}
+			return true;
+		} else {
+			return false;
+	    }	
+	}
+
+}

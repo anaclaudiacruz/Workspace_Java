@@ -1,0 +1,15 @@
+
+public class PrincipalHorario {
+
+	public static void main(String[] args) {
+
+	Horario h1, h2;
+
+		h1 = new Horario();
+		h2 = new Horario();
+
+		h1.setTime(00, 00, 00);
+		h2.setTime(13, 30, 07);
+	
+	}
+}

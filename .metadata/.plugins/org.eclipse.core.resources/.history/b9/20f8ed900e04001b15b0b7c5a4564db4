@@ -1,0 +1,11 @@
+
+public class PrincipalBiblioteca {
+
+	public static void main(String[] args) {
+		
+	Biblioteca e1, e2;
+	
+	e1 = new Empregado();
+	e2 = new Empregado();	
+	
+}
